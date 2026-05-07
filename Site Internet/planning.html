@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planning Serveurs - Lesicki Traiteur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="bg-glow glow-a" aria-hidden="true"></div>
+    <div class="bg-glow glow-b" aria-hidden="true"></div>
+
+    <header class="hero hero-small" id="top">
+      <img
+        class="hero-media"
+        src="ASSETS/B02A4989-476C-4462-8E90-94AED3DC730A 1.png"
+        alt=""
+        aria-hidden="true"
+      />
+      <div class="hero-overlay"></div>
+
+      <div class="hero-nav-wrap">
+        <a class="brand" href="index.html">LESICKI</a>
+
+        <nav class="desktop-nav" aria-label="Navigation principale">
+          <a href="histoire.html">Histoire</a>
+          <a href="univers.html">Univers</a>
+          <a href="signature.html">Signature</a>
+          <a href="avis.html">Avis</a>
+          <a href="planning.html">Planning</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="burger" type="button" aria-label="Ouvrir le menu" aria-controls="mobile-menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="mobile-nav" id="mobile-menu" aria-label="Navigation mobile">
+        <a href="histoire.html">Histoire</a>
+        <a href="univers.html">Univers</a>
+        <a href="signature.html">Signature</a>
+        <a href="avis.html">Avis</a>
+        <a href="planning.html">Planning</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Espace Staff</p>
+        <h1 class="split-text">Planning & Inscriptions.</h1>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="panel reveal">
+        <div class="dashboard-header">
+          <div>
+            <p class="section-label">Tableau de bord</p>
+            <h2 style="margin: 10px 0; color: var(--accent);">Mai 2026</h2>
+          </div>
+          <div class="view-toggles">
+            <button class="view-btn active">Calendrier</button>
+            <button class="view-btn">Liste</button>
+          </div>
+        </div>
+
+        <div class="calendar-container reveal">
+          <div class="calendar-header">
+            <h3 style="font-size: 18px; color: var(--accent);">Événements à venir</h3>
+            <div style="display: flex; gap: 10px;">
+              <button class="btn-outline magnetic" style="padding: 5px 15px; font-size: 12px;">Précédent</button>
+              <button class="btn-outline magnetic" style="padding: 5px 15px; font-size: 12px;">Suivant</button>
+            </div>
+          </div>
+          <div class="calendar-grid">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+      </section>
+
+      <section class="panel reveal">
+        <div class="page-header" style="padding-top: 40px; text-align: left; margin: 0;">
+          <p class="section-label">Détails</p>
+          <h2 style="color: var(--accent); margin-bottom: 30px;">Événements disponibles</h2>
+        </div>
+
+        <div class="event-list">
+          <!-- Card 1 -->
+          <article class="event-card reveal">
+            <span class="status-badge status-available">Disponible</span>
+            <h4>Cocktail de Luxe - Dior</h4>
+            <div class="event-info">
+              <div class="info-item">
+                <span>📅</span>
+                <span>12 Mai 2026</span>
+              </div>
+              <div class="info-item">
+                <span>🕒</span>
+                <span>18:00 - 00:00</span>
+              </div>
+              <div class="info-item">
+                <span>📍</span>
+                <span>Musée du Louvre, Paris</span>
+              </div>
+            </div>
+            <div class="event-footer">
+              <div class="spots-info">
+                <span class="spots-count">12</span> places restantes
+              </div>
+              <button class="reg-btn btn-reg magnetic">S'inscrire</button>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="event-card reveal">
+            <span class="status-badge status-available">Disponible</span>
+            <h4>Mariage Champêtre</h4>
+            <div class="event-info">
+              <div class="info-item">
+                <span>📅</span>
+                <span>15 Mai 2026</span>
+              </div>
+              <div class="info-item">
+                <span>🕒</span>
+                <span>14:00 - 02:00</span>
+              </div>
+              <div class="info-item">
+                <span>📍</span>
+                <span>Château de Fontainebleau</span>
+              </div>
+            </div>
+            <div class="event-footer">
+              <div class="spots-info">
+                <span class="spots-count">3</span> places restantes
+              </div>
+              <button class="reg-btn btn-reg magnetic">S'inscrire</button>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="event-card reveal">
+            <span class="status-badge status-full">Complet</span>
+            <h4>Séminaire Corporate</h4>
+            <div class="event-info">
+              <div class="info-item">
+                <span>📅</span>
+                <span>18 Mai 2026</span>
+              </div>
+              <div class="info-item">
+                <span>🕒</span>
+                <span>08:00 - 18:00</span>
+              </div>
+              <div class="info-item">
+                <span>📍</span>
+                <span>Hôtel Ritz Paris</span>
+              </div>
+            </div>
+            <div class="event-footer">
+              <div class="spots-info">
+                <span class="spots-count">0</span> place restante
+              </div>
+              <button class="reg-btn btn-unreg" disabled>Complet</button>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="event-card reveal">
+            <span class="status-badge status-available">Disponible</span>
+            <h4>Dîner de Gala</h4>
+            <div class="event-info">
+              <div class="info-item">
+                <span>📅</span>
+                <span>22 Mai 2026</span>
+              </div>
+              <div class="info-item">
+                <span>🕒</span>
+                <span>19:00 - 01:00</span>
+              </div>
+              <div class="info-item">
+                <span>📍</span>
+                <span>Palais Garnier, Paris</span>
+              </div>
+            </div>
+            <div class="event-footer">
+              <div class="spots-info">
+                <span class="spots-count">5</span> places restantes
+              </div>
+              <button class="reg-btn btn-reg magnetic">S'inscrire</button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal" id="contact" data-parallax style="margin-top: 100px;">
+      <div class="footer-brand">
+        <img src="ASSETS/816A41C0-A187-4A97-8AE5-260B8A2ABFF7_4_5005_c 1.png" alt="Lesicki Traiteur" />
+        <img src="ASSETS/Group 3.png" alt="Adresse Lesicki" class="footer-contact" />
+      </div>
+      <nav class="footer-nav" aria-label="Navigation footer">
+        <a class="magnetic" href="univers.html">Événements</a>
+        <a class="magnetic" href="avis.html">Avis</a>
+        <a class="magnetic" href="planning.html">Planning</a>
+        <a class="magnetic" href="histoire.html">Notre histoire</a>
+        <a class="magnetic" href="#top">Retour en haut</a>
+      </nav>
+    </footer>
+
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

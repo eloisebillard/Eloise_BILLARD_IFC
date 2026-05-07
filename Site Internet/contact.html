@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Lesicki Traiteur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="bg-glow glow-a" aria-hidden="true"></div>
+    <div class="bg-glow glow-b" aria-hidden="true"></div>
+
+    <header class="hero hero-small" id="top">
+      <img
+        class="hero-media"
+        src="ASSETS/hero-event.png"
+        alt=""
+        aria-hidden="true"
+      />
+      <div class="hero-overlay"></div>
+
+      <div class="hero-nav-wrap">
+        <a class="brand" href="index.html">LESICKI</a>
+
+        <nav class="desktop-nav" aria-label="Navigation principale">
+          <a href="histoire.html">Histoire</a>
+          <a href="univers.html">Univers</a>
+          <a href="signature.html">Signature</a>
+          <a href="avis.html">Avis</a>
+          <a href="planning.html">Planning</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="burger" type="button" aria-label="Ouvrir le menu" aria-controls="mobile-menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="mobile-nav" id="mobile-menu" aria-label="Navigation mobile">
+        <a href="histoire.html">Histoire</a>
+        <a href="univers.html">Univers</a>
+        <a href="signature.html">Signature</a>
+        <a href="avis.html">Avis</a>
+        <a href="planning.html">Planning</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Collaboration</p>
+        <h1 class="split-text">Parlons de votre projet.</h1>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="panel reveal">
+        <div class="contact-container">
+          <div class="contact-info">
+            <p class="section-label">Coordonnées</p>
+            <h3>Prendre contact</h3>
+            
+            <div class="contact-method reveal">
+              <p><strong>Téléphone</strong></p>
+              <p>04 75 59 04 18</p>
+            </div>
+
+            <div class="contact-method reveal">
+              <p><strong>Email</strong></p>
+              <p>contact@lesicki-traiteur.fr</p>
+            </div>
+
+            <div class="contact-method reveal">
+              <p><strong>Adresse</strong></p>
+              <p>7 Rue de L Hôpital</p>
+              <p>26120 Chabeuil, France</p>
+            </div>
+
+            <div class="contact-method reveal">
+              <p><strong>Réseaux Sociaux</strong></p>
+              <div style="display: flex; gap: 15px; margin-top: 10px;">
+                <a href="#" class="magnetic" style="color: var(--accent); text-decoration: none;">Instagram</a>
+                <a href="#" class="magnetic" style="color: var(--accent); text-decoration: none;">LinkedIn</a>
+                <a href="#" class="magnetic" style="color: var(--accent); text-decoration: none;">Facebook</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap">
+            <form class="contact-form reveal">
+              <div class="form-group">
+                <label for="name">Nom complet</label>
+                <input type="text" id="name" name="name" placeholder="Jean Dupont" required />
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email professionnel</label>
+                <input type="email" id="email" name="email" placeholder="jean@entreprise.fr" required />
+              </div>
+
+              <div class="form-group">
+                <label for="event-type">Type d'événement</label>
+                <input type="text" id="event-type" name="event-type" placeholder="Mariage, Séminaire, Cocktail..." required />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Décrivez votre vision..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-solid magnetic" style="width: 100%; border: none; cursor: pointer;">Envoyer la demande</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal" id="contact" data-parallax style="margin-top: 100px;">
+      <div class="footer-brand">
+        <img src="ASSETS/816A41C0-A187-4A97-8AE5-260B8A2ABFF7_4_5005_c 1.png" alt="Lesicki Traiteur" />
+        <img src="ASSETS/Group 3.png" alt="Adresse Lesicki" class="footer-contact" />
+      </div>
+      <nav class="footer-nav" aria-label="Navigation footer">
+        <a class="magnetic" href="univers.html">Événements</a>
+        <a class="magnetic" href="avis.html">Avis</a>
+        <a class="magnetic" href="planning.html">Planning</a>
+        <a class="magnetic" href="histoire.html">Notre histoire</a>
+        <a class="magnetic" href="#top">Retour en haut</a>
+      </nav>
+    </footer>
+
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
